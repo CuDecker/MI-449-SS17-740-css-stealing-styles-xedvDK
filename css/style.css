@@ -1,0 +1,88 @@
+body {
+  background-color: #f3f3f0;
+  font-family: Merriweather;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+section {
+  background-color: white;
+  padding: 2%;
+}
+
+header {
+  text-align: center;
+}
+
+input {
+  width:600px;
+  height: 24px;
+  padding: 6px 10px;
+  background-color: #fff;
+  border: 1px solid #d4dada;
+  border-radius: 3px;
+  box-shadow: none;
+  vertical-align: bottom;
+}
+
+input:focus{
+  border: 1px solid #07682c;
+  outline: 0;
+}
+
+.searchbar {
+  margin: auto;
+  max-width: 650px;
+}
+.searchbar p{
+  margin: 0px 0px 10px 0px
+}
+.green:hover {
+    color: #98c379;
+}
+
+.blue:hover {
+    color: #56b6c2;
+}
+
+.yellow:hover {
+    color: #c6ad00;
+}
+
+.purple:hover {
+    color: #b400b9;
+}
+
+.red:hover {
+    color: #c62d48;
+}
+
+button {
+  white-space: nowrap;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  background: #fff;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .025em;
+  color: #6772e5;
+  text-decoration: none;
+  transition: all .15s ease;
+}
+
+button:hover {
+  box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+}
+
+button:active{
+  background-color: #f6f9fc;
+  transform: translateY(1px);
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+}
