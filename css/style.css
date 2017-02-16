@@ -1,6 +1,5 @@
 body {
   background-color: #f3f3f0;
-  font-family: Merriweather;
 }
 
 h1 {
@@ -32,6 +31,9 @@ input:focus{
   outline: 0;
 }
 
+ul {
+  padding-left: 0px;
+}
 .searchbar {
   margin: auto;
   max-width: 650px;
@@ -59,7 +61,7 @@ input:focus{
     color: #c62d48;
 }
 
-button {
+.button {
   white-space: nowrap;
   display: inline-block;
   height: 40px;
@@ -72,16 +74,17 @@ button {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: .025em;
-  color: #6772e5;
+  color: #7795f8;
   text-decoration: none;
   transition: all .15s ease;
 }
 
-button:hover {
+.button:hover {
   box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+  transform: translateY(-1px);
 }
 
-button:active{
+.button:active{
   background-color: #f6f9fc;
   transform: translateY(1px);
   box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
