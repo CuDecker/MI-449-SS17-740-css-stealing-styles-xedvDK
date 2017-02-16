@@ -26,7 +26,7 @@ input {
   vertical-align: bottom;
 }
 
-input:focus{
+input:focus {
   border: 1px solid #07682c;
   outline: 0;
 }
